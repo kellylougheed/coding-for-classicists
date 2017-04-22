@@ -1,0 +1,58 @@
+body {
+	font-family: 'Helvetica Neue', arial;
+	text-align: center;
+	letter-spacing: 1px;
+	background-color: #343642;
+	color: #F2EBC7;
+}
+
+#translator {
+	width: 75%;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	padding: 25px;
+	background-color: #962D3E;
+	border-radius: 20px;
+}
+
+h1, h2 {
+	font-weight: 100;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 3em;
+	letter-spacing: 0;
+}
+
+h2 {
+	margin-top: 75px;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+button, input {
+	font-size: 1em;
+	padding: 8px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: 'Helvetica Neue', arial;
+	letter-spacing: 1px;
+}
+
+button {
+	background-color: #F2EBC7;
+	border-radius: 5px;
+	color: #962D3E;
+	border: none;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #F2EBC7;
+	background-color: #962D3E;
+	color: #F2EBC7;
+}
