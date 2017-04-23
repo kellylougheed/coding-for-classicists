@@ -1,19 +1,21 @@
+html {
+	background: url(../images/background.jpg) no-repeat center center fixed;
+}
+
 body {
 	font-family: 'Helvetica Neue', arial;
 	text-align: center;
 	letter-spacing: 1px;
-	background-color: #343642;
-	color: #F2EBC7;
-}
-
-#form {
 	width: 75%;
 	position: relative;
 	top: 50px;
 	margin: 0 auto;
 	padding: 25px;
-	background-color: #962D3E;
-	border-radius: 20px;
+	background: linear-gradient(bottom, rgba(255,255,255,.7), rgba(255,255,255,.2));
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,.7), rgba(255,255,255,.2));
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,.7), rgba(255,255,255,.2));
+	color: #660033;
+	border-radius: 20px;	
 }
 
 h1, h2 {
@@ -28,6 +30,7 @@ h1 {
 
 h2 {
 	margin-top: 75px;
+	font-size: 2.5em;
 }
 
 p {
@@ -44,15 +47,20 @@ button, input {
 }
 
 button {
-	background-color: #F2EBC7;
+	background-color: #660033;
 	border-radius: 5px;
-	color: #962D3E;
+	color: #eee;
 	border: none;
+}
+
+button:hover, ::selection {
+	background-color: #993366;
 }
 
 input {
 	border: none;
-	border-bottom: 1px solid #F2EBC7;
-	background-color: #962D3E;
-	color: #F2EBC7;
+	border-bottom: 1px solid #660033;
+	background: transparent;
+	color: #660033;
+	letter-spacing: 3px;
 }
