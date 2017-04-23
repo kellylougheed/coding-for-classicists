@@ -1,13 +1,10 @@
 window.onload = function() {
 	// Your JavaScript goes below
-
+	var submitButton = document.getElementById("submitButton");
 	var inputBox = document.getElementById("inputBox");
 	var wordSearched = document.getElementById("wordSearched");
 	var results = document.getElementById("results");
 	var results2 = document.getElementById("results2");
-
-	var submitButton = document.getElementById("submitButton");
-
 	submitButton.addEventListener("click", function() {
 		// Do stuff!
 		var latinWord = inputBox.value;
